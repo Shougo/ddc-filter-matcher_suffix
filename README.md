@@ -1,6 +1,6 @@
 # ddc-filter-matcher_suffix
 
-suffix matcher for ddc.vim
+Suffix matcher for ddc.vim
 
 It removes items does not match input suffix.
 

@@ -4,9 +4,7 @@ import {
   Item,
   SourceOptions,
 } from "https://deno.land/x/ddc_vim@v5.0.1/types.ts";
-import {
-  Denops,
-} from "https://deno.land/x/ddc_vim@v5.0.1/deps.ts";
+import { Denops } from "https://deno.land/x/ddc_vim@v5.0.1/deps.ts";
 import { convertKeywordPattern } from "https://deno.land/x/ddc_vim@v5.0.1/utils.ts";
 
 type Params = Record<string, never>;
@@ -30,7 +28,9 @@ export class Filter extends BaseFilter<Params> {
     );
 
     // Use keywordPattern as suffix
-    const match = args.context.nextInput.match(new RegExp(`^${keywordPattern}`));
+    const match = args.context.nextInput.match(
+      new RegExp(`^${keywordPattern}`),
+    );
     if (!match) {
       return args.items;
     }
