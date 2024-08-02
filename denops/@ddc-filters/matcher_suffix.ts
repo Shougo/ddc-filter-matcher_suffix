@@ -3,9 +3,10 @@ import {
   Context,
   Item,
   SourceOptions,
-} from "https://deno.land/x/ddc_vim@v5.0.1/types.ts";
-import { Denops } from "https://deno.land/x/ddc_vim@v5.0.1/deps.ts";
-import { convertKeywordPattern } from "https://deno.land/x/ddc_vim@v5.0.1/utils.ts";
+} from "jsr:@shougo/ddc-vim@6.0.0/types";
+import { convertKeywordPattern } from "jsr:@shougo/ddc-vim@6.0.0/utils";
+
+import type { Denops } from "jsr:@denops/core@^7.0.0";
 
 type Params = Record<string, never>;
 
