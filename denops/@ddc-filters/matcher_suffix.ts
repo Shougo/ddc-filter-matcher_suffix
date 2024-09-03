@@ -1,12 +1,8 @@
-import {
-  BaseFilter,
-  Context,
-  Item,
-  SourceOptions,
-} from "jsr:@shougo/ddc-vim@6.0.0/types";
-import { convertKeywordPattern } from "jsr:@shougo/ddc-vim@6.0.0/utils";
+import { Context, Item, SourceOptions } from "jsr:@shougo/ddc-vim@~7.0.0/types";
+import { BaseFilter } from "jsr:@shougo/ddc-vim@~7.0.0/filter";
+import { convertKeywordPattern } from "jsr:@shougo/ddc-vim@~7.0.0/utils";
 
-import type { Denops } from "jsr:@denops/core@^7.0.0";
+import type { Denops } from "jsr:@denops/core@~7.0.0";
 
 type Params = Record<string, never>;
 
