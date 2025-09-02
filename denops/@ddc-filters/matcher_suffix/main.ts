@@ -1,6 +1,6 @@
-import { Context, Item, SourceOptions } from "jsr:@shougo/ddc-vim@~7.0.0/types";
-import { BaseFilter } from "jsr:@shougo/ddc-vim@~7.0.0/filter";
-import { convertKeywordPattern } from "jsr:@shougo/ddc-vim@~7.0.0/utils";
+import type { Context, Item, SourceOptions } from "@shougo/ddc-vim/types";
+import { BaseFilter } from "@shougo/ddc-vim/filter";
+import { convertKeywordPattern } from "@shougo/ddc-vim/utils";
 
 import type { Denops } from "jsr:@denops/core@~7.0.0";
 
