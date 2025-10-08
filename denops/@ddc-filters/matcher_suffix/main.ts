@@ -2,7 +2,7 @@ import type { Context, Item, SourceOptions } from "@shougo/ddc-vim/types";
 import { BaseFilter } from "@shougo/ddc-vim/filter";
 import { convertKeywordPattern } from "@shougo/ddc-vim/utils";
 
-import type { Denops } from "jsr:@denops/core@~7.0.0";
+import type { Denops } from "@denops/std";
 
 type Params = Record<string, never>;
 
