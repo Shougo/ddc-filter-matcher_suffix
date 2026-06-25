@@ -18,6 +18,15 @@ It filters out items whose words do not end with the matched input suffix.
 
 NOTE: |ddc-source-option-keywordPattern| is used to get suffix.
 
+Behavior:
+
+- A suffix is extracted from "nextInput".
+- The extracted suffix is the prefix matched by
+  |ddc-source-option-keywordPattern|.
+- Candidates are kept only when their word ends with the suffix.
+- If "nextInput" is empty or the pattern does not match, items are returned
+  as-is.
+
 
 ==============================================================================
 INSTALL                                    *ddc-filter-matcher_suffix-install*
