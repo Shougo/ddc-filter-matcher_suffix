@@ -2,7 +2,7 @@
 
 Suffix matcher for ddc.vim
 
-It removes items does not match input suffix.
+It filters out items whose words do not end with the matched input suffix.
 
 ## Required
 
